@@ -116,13 +116,23 @@ class Jokestar
     ];
 
     /**
-     * Get some (amount of count) random jokes.
+     * Get the count of jokes.
+     * 
+     * @return int 
+     */
+    public static function count(): int
+    {
+        return count(static::$jokes);
+    }
+
+    /**
+     * Get some random jokes.
      *
-     * @param int $count = 1
+     * @param int $number = 1
      * @return array
      */
-    public static function random(int $count = 1): array
+    public static function random(int $number = 1): array
     {
-        return Arr::random(static::$jokes, $count);
+        return Arr::random(static::$jokes, $number);
     }
 }
