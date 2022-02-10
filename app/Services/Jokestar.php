@@ -114,6 +114,7 @@ class Jokestar
         "The man who survived both mustard gas and pepper spray is a seasoned veteran now.",
         "Have you heard about the new restaurant called 'Karma?' There's no menu-you get what you deserve.",
         "Why was the mushroom invited to the party. He was a fun-gi.",
+        "What is sport is the loudest? Racketball.",
     ];
 
     /**
